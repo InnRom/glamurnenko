@@ -1,0 +1,275 @@
+
+body{
+ background-color: black;
+ width: 100%;
+ height: 100vh;  
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Oranienbaum', serif;
+color: black;
+}
+
+p,a,span{
+ font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.header{
+   background: url(../image/bg-main.png) no-repeat;
+   background-position: top;
+   min-height: 674px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+    padding: 30px 10px 0;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: auto;  
+}
+
+.telephone>a{
+    font-family: 'Oranienbaum', serif;
+    font-size: 18px;
+    display: block;
+    margin-left:60px;
+    color: white;
+}
+
+.inner{
+    padding: 161px 32px;
+}
+
+.inner-descr{
+    margin-top: 30px;
+}
+
+.inner-title{
+    text-transform: uppercase;
+    color: white; 
+}
+
+.inner-text{
+    text-transform: uppercase;
+    color: rgb(127, 104, 53);
+    text-decoration: underline;
+}
+
+.main-content{
+    background-color: white;
+    padding: -40px 0;
+}
+
+.figure-caption{
+    text-align: center;
+}
+
+.img-fluid{
+   width: 1110px;
+}
+
+.content{ 
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 0;
+}
+.ribbon{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(240, 102, 102);
+    position: absolute;
+    top: 57px;
+    left: -80px;
+    box-shadow:  0 3px 5px black;
+    transform: rotate(-45deg);
+}
+.ribbon>p{
+    line-height: 40px;
+    margin:  0;
+}
+
+.content-title, .content-text{
+    text-transform: uppercase;
+}
+
+.content-text{
+    margin:40px 160px 0;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.about{
+    margin: 30px 200px;
+}
+
+.about-title{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-text:last-child{
+    margin-left: 50px;
+}
+
+.table{
+    margin: 0 auto;
+    width: 700px;
+    background-color: yellow;
+    border: 1px solid orange;
+}
+
+.table td, .table th{
+    border-top:  1px solid orange;
+    border: 1px solid orange;
+}
+
+
+.table th{
+    background-color: rgba(255, 166, 0, 0.638);
+    text-transform: uppercase;
+    text-align: center;
+}
+.table th:first-child, .table td:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.price-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.price-item{
+    width: 300px;
+    min-height: 300px;
+    border: 2px solid silver;
+    padding: 20px;
+}
+
+.price-item:hover{
+    border: 2px solid grey;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.583);
+}
+.price-subtitle, .item-text{
+    text-align: center;
+    font-weight: 700;
+}
+ p{
+    font-weight: 500;
+}
+
+.sale, .new-sale{
+    text-align: center;
+    font-size: 25px;
+}
+.sale{
+    color: silver;
+    position: relative;
+}
+.sale::before{
+    content: '';
+    width: 70px;
+    border-bottom: 2px solid red;
+    transform: rotate(-17deg);
+    position: absolute;
+    top: 17px;
+}
+
+.price-btn{
+    display: block;
+    position: relative;
+}
+
+.price-btn:hover::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: url(../image/cart.png);
+    background-position: center;
+    position: absolute;
+    top: 3px;
+    left: 54px;
+}
+
+.description{
+    padding: 50px 0;
+}
+.description-item{
+    flex-direction: row;
+    align-items: center;
+}
+.description-title{
+    text-transform: uppercase;
+    margin: 50px 0 30px 200px;
+}
+
+.d-flex {
+    border: none;
+    margin: 30px auto;
+}
+
+.description-item>img{
+    width: 100%;
+}
+.description-item>p{
+    margin-left: 30px;
+    width: 400px;
+    font-weight: 400;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+.footer-btn{
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    margin: 30px auto;
+    border-radius: 0;  
+    padding: 5px 30px 5px 10px;
+    position: relative;
+}
+
+.footer-btn::before{
+ content: '';
+ background: url(../image/chevron-down-solid.svg) no-repeat;
+ width: 20px;
+ height: 20px;
+ transform: rotate(180deg);
+ position: absolute;
+ right: 7px;
+}
+
+.footer-info{
+    list-style: none;
+    color: white;
+    padding-left: 0;
+}
+.info-item{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
